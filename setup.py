@@ -18,7 +18,7 @@ ext_modules = [
 setup(name='pycocotools',
       packages=['pycocotools'],
       package_dir={'pycocotools': 'pycocotools'},
-      version='2.1',
+      version='2.0.1',
       ext_modules=cythonize(ext_modules),
       install_requires=[
           'numpy', 'cython'
